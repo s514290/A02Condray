@@ -1,0 +1,86 @@
+#title{
+	color: blue;
+	text-shadow:
+	-1px -1px 0 white,
+	1px -1px 0 white,
+	-1px 1px 0 white,
+	1px 1px 0 white;
+}
+
+#footer{
+	min-height:100%;
+	position:relative;
+	padding-top: 30px;
+}
+
+#name{
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	margin-top: 20px;
+	font-family: bold;
+	text-shadow:
+	-1px -1px 0 white,
+	1px -1px 0 white,
+	-1px 1px 0 white,
+	1px 1px 0 white;
+}
+
+.body{
+	background-image: url("mounds.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mainText{
+	color: skyblue;
+	text-align: left;
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+.displayMod{
+	display: none;
+}
+
+.button{
+	color: blue;
+	width: 75px;
+	height: 50px;
+}
+
+.headerColor{
+	color: black;
+	text-shadow:
+	-1px -1px 0 blue,
+	1px -1px 0 blue,
+	-1px 1px 0 blue,
+	1px 1px 0 blue;
+}
+
+.link{
+	color: lime
+}
+
+ul{
+	background: skyblue;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+
+li a{
+	display: block;
+    color: blue;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	background: white;
+    color: black;
+}
